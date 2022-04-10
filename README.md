@@ -20,5 +20,5 @@ As an optional 4th step, the script uses matplotlib.pyplot to colorize the image
 # Limits
 Currently, each channel has to be treated seperately. The script is still WIP and not able to do batch-proccessing.
 The algorithm can theoretically handle the `ASCAT-ALL.png` image created by [satDump](https://github.com/altillimity/SatDump),
-but the result for single-channel processing is better. Since this uses the average over each row, higher images always give a better result.
+but the result for single-channel proccessing is better. Since this uses the average over each row, higher images should give a better result.
 
