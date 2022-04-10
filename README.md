@@ -15,6 +15,7 @@ The script first calculates the average pixel-brightness of each column by addin
 After we did this, we can see the average brightness of each column in the `noisepattern.png` file created by the script. 
 We then substract this noisepattern from every row, normalize the result and get `ASCAT_denoised.png`. 
 As an optional 4th step, the script uses matplotlib.pyplot to colorize the image.
+
 ![How_it_works](https://user-images.githubusercontent.com/50832240/162627473-8ec708cb-8985-4a3c-87aa-44c9d4116392.png)
 
 # Limits
