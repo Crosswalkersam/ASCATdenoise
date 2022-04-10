@@ -7,8 +7,8 @@ After you installed Python on your machine, you need to install Image and matplo
 `pip install Image` and `pip install matplotlib`.
 
 # Usage
-After that, simply put an ASCAT-image named `input.png` into the same directory as the script.
-Then you just have to run the script. That's it.
+Simply put an ASCAT-image named `input.png` into the same directory as the script.
+Then you just have to run the script. That's it. All results will be saved in the same directory.
 
 # How it works
 The script first calculates the average pixel-brightness of each column by summing all values up and dividing by the height.
